@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/output.css" />
+    <link rel="shortcut icon" href="../assets/Icon/Vector.svg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/a827d91976.js" crossorigin="anonymous"></script>
+    <title>Wakanda</title>
+  </head>
+  <body>
+    <!-- header -->
+    <nav id="header" class="w-full top-0 fixed bg-white/90 backdrop-blur z-50">
+      <div class="container py-[14px] flex flex-wrap lg:flex-nowrap justify-between items-center px-5 lg:px-0">
+        <!-- Icon -->
+
+        <a href="#hero" class="image-icon flex items-center gap-2"
+          ><img src="../assets/Logo.png" alt="" />
+          <p class="text-2xl left-3 font-bold text-black">Wakanda</p></a
+        >
+
+        <!-- Buttton -->
+        <button
+          data-collapse-toggle="navbar-default"
+          type="button"
+          class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+          </svg>
+        </button>
+
+        <!-- Right -->
+        <div id="navbar-default" class="menu-navigation hidden lg:block w-full lg:w-auto mt-10 lg:mt-0">
+          <ul class="flex gap-7 text-black flex-col lg:flex-row font-medium text-sm leading-[14px] items-start justify-center lg:items-center w-full lg:w-auto">
+            <li class="w-full lg:w-auto"><a href="#hero" class="hover:font-bold block hover:bg-slate-500 lg:px-0 lg:py-0 px-10 py-4 lg:hover:bg-white duration-200">Home</a></li>
+            <li class="w-full lg:w-auto"><a href="#" class="hover:font-bold block hover:bg-slate-500 lg:px-0 lg:py-0 px-10 py-4 lg:hover:bg-white duration-200">About us</a></li>
+            <li class="w-full lg:w-auto"><a href="#tutorial" class="hover:font-bold block hover:bg-slate-500 lg:px-0 lg:py-0 px-10 py-4 lg:hover:bg-white duration-200">How it works</a></li>
+            <li class="w-full lg:w-auto"><a href="#" class="hover:font-bold block hover:bg-slate-500 lg:hover:bg-white lg:px-0 lg:py-0 px-10 py-4 duration-200">For Freelancer</a></li>
+            <li class="w-full lg:w-auto"><a href="#" class="text-white px-10 text-base leading-[14px] py-4 bg-[#0077C0] hover:bg-[#0077C0]/80 rounded-2xl font-semibold w-full lg:w-auto block duration-200">Get Started</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero -->
+    <section id="hero" class="pt-[100px]">
+      <div class="container pt-7 flex flex-wrap-reverse lg:flex-nowrap justify-center lg:justify-between items-center gap-5 px-5 lg:px-0">
+        <!-- Text -->
+        <div class="Text">
+          <p class="text-black font-bold text-5xl leading-tight w-auto lg:max-w-[480px]">Recruit top talented freelancer for your business</p>
+          <p class="text-black font-normal w-auto lg:max-w-[320px] text-sm mt-3">Connect you to thoudsands of talented freelancer from any industry. You can have the best people in just few simple steps.</p>
+          <button class="text-white px-10 text-base leading-[14px] py-4 bg-[#0077C0] rounded-2xl font-semibold mt-4 hover:bg-[#0077C0]/80 lg:w-auto w-full block">Get Started</button>
+        </div>
+
+        <!-- Image -->
+        <div class="image">
+          <img src="../assets/image.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Social -->
+    <section id="social">
+      <div class="container flex lg:justify-between justify-center py-10 flex-col lg:flex-row gap-8 items-center px-5 lg:px-0 lg:mt-0 mt-10">
+        <img src="../assets/airbnb.png" alt="" />
+        <img src="../assets/google.png" alt="" />
+        <img src="../assets/slack.png" alt="" />
+        <img src="../assets/netflix.png" alt="" />
+        <img src="../assets/amazon.png" alt="" />
+      </div>
+    </section>
+
+    <!-- Tutorial -->
+    <section id="tutorial">
+      <div class="container flex flex-wrap lg:flex-nowrap justify-center lg:justify-between items-center py-10 px-5 lg:px-0 lg:mt-0 mt-10 gap-28">
+        <!-- Image -->
+        <div class="image">
+          <img src="../assets/tutorial-image.png" alt="" class="lg:max-w-[500px]" />
+        </div>
+        <!-- Text -->
+        <div class="text mr-24">
+          <!-- title -->
+          <div class="header">
+            <p class="text-[40px] leading-10 font-bold">Wakanda is an easy platform to find talent</p>
+          </div>
+
+          <!-- Tutor -->
+          <div class="subtitle mt-5">
+            <div class="flex items-center">
+              <p class="rounded-full h-7 w-7 text-center bg-[#C7EEFF] mr-3">1</p>
+              <p class="text-sm leading-[14px] text-black">Sign in to our website</p>
+            </div>
+            <div class="flex items-center mt-3">
+              <p class="rounded-full h-7 w-7 text-center bg-[#C7EEFF] mr-3">2</p>
+              <p class="text-sm leading-[14px] text-black">Fill out neccesary information</p>
+            </div>
+            <div class="flex items-center mt-3">
+              <p class="rounded-full h-7 w-7 text-center bg-[#C7EEFF] mr-3">3</p>
+              <p class="text-sm leading-[14px] text-black">Discover thoudsands of freelancers</p>
+            </div>
+            <div class="flex items-center mt-3">
+              <p class="rounded-full h-7 w-7 text-center bg-[#C7EEFF] mr-3">4</p>
+              <p class="text-sm leading-[14px] text-black">View freelancer’s profile and hire</p>
+            </div>
+            <div class="flex items-center mt-3">
+              <p class="rounded-full h-7 w-7 text-center bg-[#C7EEFF] mr-3">5</p>
+              <p class="text-sm leading-[14px] text-black">Complete payment & it’s time to work!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer" class="bg-[#1D242B]">
+      <div class="container py-8 justify-center lg:justify-between gap-10 flex flex-wrap lg:flex-nowrap px-5 lg:px-0">
+        <!-- Company -->
+        <div class="Company">
+          <!-- Logo Company -->
+          <a href="#hero" class="image-icon flex items-center gap-2"
+            ><img src="../assets/Vector.png" alt="" />
+            <p class="text-2xl left-3 font-bold text-white">Wakanda</p></a
+          >
+
+          <!-- Sosmed -->
+          <div class="sosmed flex gap-3 items-center mt-7">
+            <a href=""
+              ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="bg-white/10 w-8 h-8 rounded-full fill-white px-[6px] py-[6px]">
+                <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                />
+              </svg>
+            </a>
+
+            <a href="">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="bg-white/10 w-8 h-8 rounded-full fill-white px-[6px] py-[6px]">
+                <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path
+                  d="M86.6 64C119 35.5 158.6 15 202.3 5.6C206 19.1 208 33.3 208 48c0 38.4-13.5 73.7-36.1 101.3L86.6 64zM64 86.6l85.2 85.2C121.7 194.5 86.4 208 48 208c-14.7 0-28.9-2-42.4-5.7C15 158.6 35.5 119 64 86.6zM256 0c64.9 0 124.2 24.2 169.4 64L256 233.4 194.6 172C222.9 138.5 240 95.3 240 48c0-16.2-2-32-5.8-47.1C241.4 .3 248.7 0 256 0zM48 240c47.3 0 90.5-17.1 124-45.4L233.4 256 64 425.4C24.2 380.2 0 320.9 0 256c0-7.3 .3-14.6 .9-21.8C16 238 31.8 240 48 240zm463.1 37.8C496 274 480.2 272 464 272c-47.3 0-90.5 17.1-124 45.4L278.6 256 448 86.6c39.8 45.1 64 104.4 64 169.4c0 7.3-.3 14.6-.9 21.8zm-4.7 31.9C497 353.4 476.5 393 448 425.4l-85.2-85.2C390.3 317.5 425.6 304 464 304c14.7 0 28.9 2 42.4 5.7zM340.1 362.7L425.4 448C393 476.5 353.4 497 309.7 506.4C306 492.9 304 478.7 304 464c0-38.4 13.5-73.7 36.1-101.3zM317.4 340C289.1 373.5 272 416.7 272 464c0 16.2 2 32 5.8 47.1c-7.2 .6-14.5 .9-21.8 .9c-64.9 0-124.2-24.2-169.4-64L256 278.6 317.4 340z"
+                />
+              </svg>
+            </a>
+            <a href="">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="bg-white/10 w-8 h-8 rounded-full fill-white px-[6px] py-[6px]">
+                <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path
+                  d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                />
+              </svg>
+            </a>
+
+            <a href="">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="bg-white/10 w-8 h-8 rounded-full fill-white px-[6px] py-[6px]">
+                <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path
+                  d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
+                />
+              </svg>
+            </a>
+          </div>
+
+          <!-- Copyright -->
+          <p class="text-[#D9DBE1] font-normal text-xs mt-7">Copyright © 2022 Wakanda. All rights reserved</p>
+        </div>
+
+        <!-- Links -->
+        <div class="Links flex flex-wrap lg:flex-nowrap justify-center lg:justify-between text-[#D9DBE1] lg:gap-28 gap-10 text-base leading-4">
+          <ul>
+            <li class="text-white font-bold text-lg">Company</li>
+            <li class="mt-5">About us</li>
+            <li class="mt-4">Blog</li>
+            <li class="mt-4">Contact us</li>
+            <li class="mt-4">How it works</li>
+            <li class="mt-4">For freelancer</li>
+          </ul>
+          <ul>
+            <li class="text-white font-bold text-lg">Support</li>
+            <li class="mt-5">Help center</li>
+            <li class="mt-4">Terms of service</li>
+            <li class="mt-4">Legal</li>
+            <li class="mt-4">Privacy policys</li>
+            <li class="mt-4">Status</li>
+          </ul>
+
+          <!-- Subscibe -->
+          <div class="subscribe">
+            <p class="font-bold text-lg text-white">Subscribe to our newsletter</p>
+            <form action="" method="get" class="flex bg-white/20 rounded-md mt-5">
+              <input type="email" name="" id="" placeholder="Your email address" class="bg-transparent border-none focus:ring-transparent placeholder:text-[#D9DBE1]" />
+              <button><img src="../assets/send.png" alt="" /></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="../node_modules/flowbite/dist/flowbite.js"></script>
+  </body>
+</html>
